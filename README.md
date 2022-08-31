@@ -59,3 +59,14 @@ The U-Net network has 23 convolutional layers in total.
 
 #### Important Note: 
 The figures shown in the assignment for the U-Net architecture depict the layer dimensions and filter sizes as per the original paper on U-Net with smaller images. However, due to computational constraints for this assignment, you will code only half of those filters. The purpose of showing you the original dimensions is to give you the flavour of the original U-Net architecture. The important takeaway is that you multiply by 2 the number of filters used in the previous step. The notebook includes all of the necessary instructions and hints to help you code the U-Net architecture needed for this assignment.
+
+
+
+
+<font color='blue'>
+    
+**What you should remember**: 
+
+* Semantic image segmentation predicts a label for every single pixel in an image
+* U-Net uses an equal number of convolutional blocks and transposed convolutions for downsampling and upsampling
+* Skip connections are used to prevent border pixel information loss and overfitting in U-Net
