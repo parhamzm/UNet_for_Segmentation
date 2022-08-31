@@ -16,5 +16,3 @@ By the time you finish this notebook, you'll be able to:
 * Explain the difference between a regular CNN and a U-net
 * Implement semantic image segmentation on the CARLA self-driving car dataset
 * Apply sparse categorical crossentropy for pixelwise prediction
-
-Onward, to this grand and glorious quest!
